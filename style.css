@@ -13,6 +13,8 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 150px;
+
 
 }
 
@@ -30,14 +32,41 @@ section {
     text-decoration: none;
     background-image: linear-gradient(rgb(210, 124, 210), palevioletred);
     width: 40px;
-    padding: 6px;
+    padding: 10px;
     border-radius: 5px;
     color: white;
     font-weight: 500;
+    width: 40px;
 
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big,
+.img2 {
+    width: 50%;
+}
+
+.kitty {
+    width: 80%;
+}
+
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(225, 17, 117), rgb(170, 74, 211));
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    width: 40px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
